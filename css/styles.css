@@ -1,0 +1,192 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+/* Headings */
+
+h1, h2, h3, h4, h5, h6 {
+font-family: "Montserrat";
+font-weight: 700;
+}
+
+.big-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+/* Title Section */
+
+#title {
+  text-align: left;
+}
+.container-fluid {
+  padding: 3% 15% 7%;;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight: 100;
+}
+
+.fa-dog {
+  color: #fff;
+}
+
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+.title-img {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-img {
+    position: static;
+    transform: rotate(0deg);
+  }
+}
+/* Features Section */
+
+#features {
+  padding: 7% 15%;
+  position: relative;
+}
+.col-lg-4 {
+  padding: 5%;
+}
+
+.container {
+  padding: 7% 5%;
+}
+
+.fa-feat {
+  color: #ef8172;
+  padding-bottom: 5%;
+}
+
+.fa-feat:hover {
+  color: #ff4c68;
+}
+
+.feature-text {
+  font-size: 1.5rem;
+}
+
+.p-feat {
+  color: #8f8f8f;
+  padding-bottom: 10%;
+}
+
+/* Testimonials Section */
+
+#testimonials {
+  background-color: #ef8172;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+.press-img {
+  margin: 20px 20px 50px;
+  width: 15%;
+}
+
+/* Pricing Section */
+
+#pricing {
+  padding: 100px;
+}
+
+.pricing-col {
+  padding: 3% 2%;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.dog-type {
+  font-size: 1.5rem;
+}
+
+/* CTA Section */
+
+#cta {
+  padding: 7% 15%;
+}
+
+.cta-header {
+  color: #fff;
+  font-weight: 900;
+  font-size: 3rem;
+}
+
+/* Footer Section */
+
+#footer {
+  color: #8f8f8f;
+  padding: 3% 0% 1%;
+}
+
+.fa-footer {
+  color: #8f8f8f;
+  padding: 0% 0.5%;
+}
